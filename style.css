@@ -1,3 +1,7 @@
+html{
+    scroll-behavior:smooth;
+}
+
 *{
     margin:0;
     padding:0;
@@ -307,4 +311,48 @@ button:hover{
 
 .contact-form button{
     width:150px;
+}
+
+/* Footer */
+
+footer{
+    background:#111827;
+    text-align:center;
+    padding:30px;
+    margin-top:50px;
+    color:#94a3b8;
+}
+
+footer p{
+    margin:10px;
+}
+
+/* Mobile Responsive */
+
+@media(max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+
+    nav ul{
+        flex-direction:column;
+        text-align:center;
+        gap:15px;
+    }
+
+
+    #home h1{
+        font-size:2.5rem;
+    }
+
+
+    .about-container,
+    .contact-container{
+        flex-direction:column;
+    }
+
 }
