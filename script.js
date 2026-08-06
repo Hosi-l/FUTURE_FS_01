@@ -54,3 +54,13 @@ topBtn.addEventListener("click", () => {
     });
 
 });
+
+const form = document.querySelector(".contact-form");
+
+form.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    alert("Thank you! Your contact form will be connected soon.");
+
+});
