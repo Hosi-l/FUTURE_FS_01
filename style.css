@@ -245,3 +245,66 @@ button:hover{
 .project-card a:hover{
     text-decoration:underline;
 }
+
+/* Contact Section */
+
+#contact{
+    padding:100px 10%;
+}
+
+
+.contact-container{
+    display:flex;
+    gap:50px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+
+.contact-info{
+    flex:1;
+    min-width:300px;
+}
+
+
+.contact-info h3{
+    color:#38bdf8;
+    margin-bottom:20px;
+}
+
+
+.contact-info p{
+    margin:15px 0;
+    line-height:1.6;
+}
+
+
+.contact-form{
+    flex:1;
+    min-width:300px;
+    display:flex;
+    flex-direction:column;
+}
+
+
+.contact-form input,
+.contact-form textarea{
+
+    background:#1e293b;
+    color:white;
+    border:none;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:8px;
+}
+
+
+.contact-form textarea{
+    height:150px;
+    resize:none;
+}
+
+
+.contact-form button{
+    width:150px;
+}
