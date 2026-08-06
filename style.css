@@ -199,3 +199,49 @@ button:hover{
 .skill-card p{
     line-height:1.6;
 }
+
+/* Projects */
+
+#projects{
+    padding:100px 10%;
+}
+
+.projects-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 12px 25px rgba(56,189,248,.25);
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+.project-card p{
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.project-card a{
+    display:inline-block;
+    margin-right:15px;
+    color:#38bdf8;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.project-card a:hover{
+    text-decoration:underline;
+}
