@@ -114,3 +114,55 @@ button:hover{
     background:transparent;
     border:2px solid #38bdf8;
 }
+
+/* About Section */
+
+#about{
+    padding:100px 10%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:40px;
+    color:#38bdf8;
+    margin-bottom:60px;
+}
+
+.about-container{
+    display:flex;
+    gap:50px;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+
+.about-text{
+    flex:1;
+    min-width:300px;
+}
+
+.about-text h3{
+    margin-bottom:20px;
+}
+
+.about-text p{
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+.about-info{
+    flex:1;
+    min-width:300px;
+}
+
+.info-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:20px;
+    transition:.3s;
+}
+
+.info-card:hover{
+    transform:translateY(-5px);
+}
