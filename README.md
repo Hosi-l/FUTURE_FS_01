@@ -8,6 +8,10 @@ The goal of this project is to create a professional online presence where recru
 
 ---
 
+## 🌐 Live Website
+
+https://hosi-l.github.io/FUTURE_FS_01/
+
 ## 🚀 Features
 
 - Responsive design for desktop and mobile devices
@@ -16,6 +20,7 @@ The goal of this project is to create a professional online presence where recru
 - About section with background and goals
 - Skills showcase
 - Project portfolio section
+- Downloadable CV
 - Contact section
 - Smooth scrolling navigation
 
@@ -45,7 +50,14 @@ FUTURE_FS_01
 ├── style.css
 ├── script.js
 ├── README.md
-└── .gitignore
+├── .gitignore
+│
+└── assets
+    │
+    ├── Hosaena_Belay_CV.pdf
+└── images
+        └── favicon.ico
+
 
 
 ---
@@ -67,7 +79,7 @@ FUTURE_FS_01
 Software Engineering Student  
 Aspiring Full Stack Developer
 
-GitHub:
+GitHub:  
 https://github.com/Hosi-l
 
 ---
